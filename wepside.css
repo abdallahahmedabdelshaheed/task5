@@ -269,42 +269,49 @@ body{
 
 
 #part5b21::after{
-    content: "ABOUT";
+    content: "";
     width: 0px; height: 50px;
     background-color: rgb(160, 160, 160);
     position: absolute;
     bottom: 0px; left: 0px;
-    transition: width 0.5s;
+    transition: all 0.5s;
     color: white;
+    line-height: 50px;
 }
 #part5b21:hover::after{
+    content: "ABOUT";
     width: 150px;
 }
 
 #part5b22::after{
-    content: "ARTICLES";
+    content: "";
     width: 0px; height: 50px;
     background-color: rgb(160, 160, 160);
     position: absolute;
     bottom: 0px; left: 0px;
-    transition: width 0.5s;
+    transition: all 0.5s;
     color: white;
+    line-height: 50px;
 }
 #part5b22:hover::after{
     width: 150px;
+    content: "ARTICLES";
 }
 
 #part5b23::after{
-    content: "ABOUT";
+    content: "";
     width: 0px; height: 50px;
     background-color: rgb(160, 160, 160);
     position: absolute;
     bottom: 0px; left: 0px;
-    transition: width 0.5s;
+    transition: all 0.5s;
     color: white;
+    line-height: 50px;
 }
 #part5b23:hover::after{
     width: 150px;
+    content: "SUBSCRIBE";
+
 }
 
 #part5b11{
